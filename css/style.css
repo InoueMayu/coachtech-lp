@@ -1,0 +1,125 @@
+header {
+  background-color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-left {
+  float :left;
+}
+
+.header-right p {
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.top-wrapper {
+  width :1170px;
+  background-color: white;
+}
+
+.relative {
+  position: relative;
+
+}
+
+.relative__img {
+  width: 50%;
+  margin: 150px 0 0 auto;
+  height: 100%;
+  display: block;
+  position: relative;
+  top: 50px;
+}
+
+.absolute1 {
+  position: absolute;
+  font-size: 50px;
+  bottom: 150px;
+  left: 250px;
+  z-index: 5;
+}
+
+.abusolute2 {
+  position: absolute;
+  font-size: 30px;
+  bottom:80px;
+  left: 250px;
+  z-index: 6;
+}
+
+.abusolute3 {
+  position: absolute;
+  font-size: 15px;
+  bottom: 50px;
+  left: 250px;
+  z-index: 7;
+}
+
+.news-wrapper{
+  margin-bottom: 200px;
+  position: relative;
+}
+
+dl {
+  width: 500px;
+  position: absolute;
+  top:200px;
+  left: 300px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+}
+
+dt {
+  border-bottom: 1px solid #ccc;
+  float:left;
+  padding: 20px 5px;
+}
+
+dd {
+  border-bottom: 1px solid #ccc;
+  margin-left: 100px;
+  padding: 20px 5px;
+}
+
+.absolute4{
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+.absolute5{
+  position: absolute;
+  top: 170px;
+  left: 300px;
+
+}
+
+.about {
+  position: relative;
+
+}
+
+.about2{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.about3 {
+  position: absolute;
+}
+
+.about4 {
+  position :absolute;
+}
+
+.absolute__img {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
