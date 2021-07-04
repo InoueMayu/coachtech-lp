@@ -4,6 +4,7 @@ body {
 
 header {
   background-color: white;
+  height: 50px;
 }
 
 .header-right {
@@ -32,7 +33,7 @@ header {
 
 .relative__img {
   width: 50%;
-  margin: 150px 0 0 auto;
+  margin: 50px 0 0 auto;
   height: 100%;
   display: block;
   position: relative;
@@ -433,6 +434,10 @@ th {
   position: relative;
 }
 
+.recruit img {
+  width: 100%;
+}
+
 .recruit h3 {
   position: absolute;
   top: 50%;
@@ -449,6 +454,10 @@ th {
 .interview {
   width: 50%;
   position: relative;
+}
+
+.interview img {
+  width: 100%;
 }
 
 .interview h3 {
